@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/decorators">
+	<excludes>
+		<pattern>/BlankError*</pattern>
+	</excludes>
+	
+	<excludes>
+		<pattern>/login*</pattern>
+	</excludes>
+	
+	<decorator name ="Group" page="defaullt.jsp">
+		<pattern>/*</pattern>
+	</decorator>
+	
+	
+	
+</decorators>
